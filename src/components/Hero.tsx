@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 export default function Hero() {
   const [copied, setCopied] = useState(false);
-  const contractAddress = "0x0000000000000000000000000000000000000000"; // Replace with actual contract address
+  const contractAddress = "0x00000000000000000000000000000000"; // Replace with actual contract address
 
   const scrollToScanner = () => {
     const scanner = document.getElementById('scanner');
@@ -59,7 +59,9 @@ export default function Hero() {
           <div className="mt-6 flex flex-col sm:flex-row justify-center items-center space-y-2 sm:space-y-0">
             <div className="inline-flex bg-gray-800/50 border-2 border-purple-500 rounded-lg p-4 items-center w-auto">
               <span className="text-gray-400 text-lg font-semibold">Contract:</span>
-              <span className="text-purple-500 font-mono text-lg mx-4">{contractAddress}</span>
+              <span className="text-purple-500 font-mono text-lg mx-4 truncate w-48 sm:w-auto" style={{ overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+                {contractAddress}
+              </span>
             </div>
             <button
               onClick={copyToClipboard}
