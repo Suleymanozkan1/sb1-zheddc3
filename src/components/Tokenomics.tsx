@@ -17,7 +17,7 @@ export default function Tokenomics() {
     {
       icon: <i className="fas fa-scroll text-purple-500 text-2xl" aria-hidden="true"></i>,
       label: 'Sealed Scrolls',
-      percentage: 95,
+      percentage: 99,
       description: 'Ancient knowledge locked away'
     },
     {
