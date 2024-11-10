@@ -11,6 +11,18 @@ export function Scanner() {
           Our magical scanner is being enchanted with powerful spells
         </p>
         <i className="fas fa-hat-wizard text-purple-500 text-4xl mt-8 animate-bounce"></i>
+
+        <p className="text-lg md:text-xl text-center text-gray-500 mt-8">
+          In the meantime, you may seek guidance from our enchanted Telegram bot
+        </p>
+        <a
+          href="https://t.me/gigglyeth_bot"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-4 px-6 py-3 bg-purple-600 text-white font-semibold rounded-full shadow-lg hover:bg-purple-700 transition"
+        >
+          Summon the Bot
+        </a>
       </div>
     </div>
   );
