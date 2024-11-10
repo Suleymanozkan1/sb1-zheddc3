@@ -22,9 +22,9 @@ export default function Tokenomics() {
     },
     {
       icon: <i className="fas fa-users text-purple-500 text-2xl" aria-hidden="true"></i>,
-      label: 'Council of Wizards',
-      percentage: 5,
-      description: 'Wise council allocation'
+      label: 'Council of Wizards Tax',
+      percentage: 4,
+      description: 'The Wizards' Council's budget for new spells.'
     }
   ];
 
