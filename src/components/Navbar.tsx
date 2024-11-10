@@ -30,7 +30,7 @@ export default function Navbar() {
                 className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded-lg flex items-center space-x-2 text-sm"
               >
                 <i className="fab fa-telegram"></i>
-                <span>Launch App</span>
+                <span>Launch Bot</span>
               </a>
             </div>
           </div>
