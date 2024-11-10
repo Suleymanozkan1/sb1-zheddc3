@@ -3,7 +3,7 @@ import React from 'react';
 export default function Tokenomics() {
   const tokenomics = [
     {
-      icon: <i className="fas fa-hat-wizard text-purple-500 text-3xl" aria-hidden="true"></i>,
+      icon: <i className="fas fa-hat-wizard text-purple-500 text-2xl" aria-hidden="true"></i>,
       label: "Wizard's Share",
       percentage: 95,
       description: 'Magical power distribution'
