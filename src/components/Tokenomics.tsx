@@ -9,16 +9,16 @@ export default function Tokenomics() {
       description: 'Magical power distribution'
     },
     {
-      icon: <i className="fas fa-scroll text-purple-500 text-2xl" aria-hidden="true"></i>,
-      label: 'Sealed Scrolls',
-      percentage: 95,
-      description: 'Ancient knowledge locked away'
-    },
-    {
       icon: <i className="fas fa-coins text-purple-500 text-2xl" aria-hidden="true"></i>,
       label: 'Magic Treasury',
       percentage: 5,
       description: 'Arcane resources vault'
+    },
+    {
+      icon: <i className="fas fa-scroll text-purple-500 text-2xl" aria-hidden="true"></i>,
+      label: 'Sealed Scrolls',
+      percentage: 95,
+      description: 'Ancient knowledge locked away'
     },
     {
       icon: <i className="fas fa-users text-purple-500 text-2xl" aria-hidden="true"></i>,
