@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 export default function Hero() {
   const [copied, setCopied] = useState(false);
-  const contractAddress = "0x3726B67c61D2B6e2d76eb30B1C877713b94cc1A0"; // Replace with actual contract address
+  const contractAddress = "0x3726b67c61d2b6e2d76eb30b1c877713b94cc1a0"; // Replace with actual contract address
   const SOLcontractAddress = "B5o5Lzfbk7iNLprGctpiVrEy3g6R544UZrJ3xoxipump"; // Replace with actual contract address
 
   const scrollToScanner = () => {
