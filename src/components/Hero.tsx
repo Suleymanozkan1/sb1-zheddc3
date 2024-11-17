@@ -15,6 +15,11 @@ export default function Hero() {
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
+  const copyToSOL = () => {
+    navigator.clipboard.writeText(SOLcontractAddress);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
 
   return (
     <div className="pt-20 pb-8 md:pt-32">
@@ -80,7 +85,7 @@ export default function Hero() {
                 </span>
               </div>
               <button
-                onClick={copyToClipboard}
+                onClick={copyToSOL}
                 className="ml-4 p-2 hover:bg-gray-700 rounded-lg transition-colors bg-gray-800/50 border-2 border-purple-500"
                 title="Copy to clipboard"
               >
