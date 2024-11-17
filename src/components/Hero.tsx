@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 export default function Hero() {
   const [copied, setCopied] = useState(false);
   const contractAddress = "0x3Fb5cdcfB47f863867ED75c15eA2E2BBfa35d2CF"; // Replace with actual contract address
-  const SOLcontractAddress = "0x0000000000000000000000000000000000000000000"; // Replace with actual contract address
+  const SOLcontractAddress = "B5o5Lzfbk7iNLprGctpiVrEy3g6R544UZrJ3xoxipump"; // Replace with actual contract address
 
   const scrollToScanner = () => {
     const scanner = document.getElementById('scanner');
